@@ -13,3 +13,12 @@ hacimL = #Kodu tamamlayınız
 
 #Çıktıyı alıyoruz:
 print("Litre cinsinden hacmimiz: ", hacimL)
+
+kenar1 = int(input("5:"))
+kenar2 = int(input("3:"))
+kenar3 = int(input("4:"))
+
+hacimCM3 = kenar1*kenar2*kenar3
+
+hacimL = hacimCM3
+print(hacimCM3)
